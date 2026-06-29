@@ -49,7 +49,12 @@ a { color: inherit; }
   gap: 13px;
   text-decoration: none;
 }
-
+.site-logo{
+  width:72px;
+  height:72px;
+  object-fit:contain;
+  border-radius:18px;
+}
 .logo-mark {
   width: 48px;
   height: 48px;
