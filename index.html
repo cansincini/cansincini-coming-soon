@@ -29,10 +29,23 @@
       <a href="#hakkimda">Hakkımda</a>
       <a href="#yolculuk">Yolculuk</a>
       <a href="#uzmanliklar">Uzmanlıklar</a>
+      <a href="#egitimler">Eğitimler</a>
       <a href="#icerikler">İçerikler</a>
       <a href="#etkinlikler">Etkinlikler</a>
       <a href="#iletisim">İletişim</a>
     </nav>
+    <details class="mobile-navigation">
+      <summary aria-label="Mobil menüyü aç veya kapat">Menü <span aria-hidden="true">☰</span></summary>
+      <div class="mobile-navigation-links">
+        <a href="#hakkimda">Hakkımda</a>
+        <a href="#yolculuk">Yolculuk</a>
+        <a href="#uzmanliklar">Uzmanlıklar</a>
+        <a href="#egitimler">Eğitimler</a>
+        <a href="#icerikler">İçerikler</a>
+        <a href="#etkinlikler">Etkinlikler</a>
+        <a href="#iletisim">İletişim</a>
+      </div>
+    </details>
   </header>
 
   <main id="top">
@@ -194,6 +207,77 @@
       </div>
     </section>
 
+
+
+    <!-- ERP ve TROIA eğitimleri -->
+    <section class="section training-section" id="egitimler" aria-labelledby="training-heading">
+      <div class="section-title wide">
+        <p class="label">Eğitimler</p>
+        <h2 id="training-heading">ERP ve TROIA eğitim programları</h2>
+      </div>
+      <p class="training-lead">ERP danışmanlığı ve yazılım geliştirme alanında edindiğim deneyimler doğrultusunda, bireysel ve kurumsal ihtiyaçlara yönelik eğitim programları hazırlıyorum. Konuları iş süreçleri, teknik geliştirme ve proje uygulamalarından örneklerle ele alıyorum.</p>
+      <div class="training-tabs" role="tablist" aria-label="Eğitim türü">
+        <button class="training-tab" type="button" role="tab" id="training-tab-individual" aria-controls="training-individual" aria-selected="true" tabindex="0">Bireysel Eğitimler</button>
+        <button class="training-tab" type="button" role="tab" id="training-tab-corporate" aria-controls="training-corporate" aria-selected="false" tabindex="-1">Kurumsal Eğitimler</button>
+      </div>
+      <div class="training-panel" id="training-individual" role="tabpanel" aria-labelledby="training-tab-individual"  >
+        <p class="training-audience-copy">ERP danışmanlığına yönelmek, mevcut ERP bilgisini geliştirmek veya TROIA öğrenmek isteyenler için birebir eğitimler.</p>
+        <div class="training-grid"><article class="training-card"><div class="training-card-top"><span class="training-index">01</span><span class="training-code">BE-01</span></div><h3>ERP Danışmanlığı ve Proje Süreçleri</h3><p>ERP iş süreçleri, ihtiyaç analizi, proje metodolojisi, test ve canlıya geçiş çalışmalarına giriş.</p><div class="training-card-bottom"><div class="training-card-meta"><span>Başlangıç</span><span>16 saat</span></div><button class="training-open" type="button" data-program="BE-01" aria-controls="training-individual-details" aria-expanded="false">Programı incele <span class="training-chevron" aria-hidden="true">⌄</span></button></div></article><article class="training-card"><div class="training-card-top"><span class="training-index">02</span><span class="training-code">BE-02</span></div><h3>TROIA ve SQL ile Teknik Geliştirmeye Giriş</h3><p>SQL temelleri, TROIA programlama, ekran yapıları, trace ve uygulamalı temel geliştirme.</p><div class="training-card-bottom"><div class="training-card-meta"><span>Başlangıç – Orta</span><span>40 saat</span></div><button class="training-open" type="button" data-program="BE-02" aria-controls="training-individual-details" aria-expanded="false">Programı incele <span class="training-chevron" aria-hidden="true">⌄</span></button></div></article><article class="training-card"><div class="training-card-top"><span class="training-index">03</span><span class="training-code">BE-03</span></div><h3>Uygulamalı ERP Projeleri ve Canlıya Geçiş</h3><p>Müşteri talepleri üzerinden analiz, UAT, veri kontrolü, hata takibi ve canlıya geçiş uygulamaları.</p><div class="training-card-bottom"><div class="training-card-meta"><span>Orta</span><span>24 saat</span></div><button class="training-open" type="button" data-program="BE-03" aria-controls="training-individual-details" aria-expanded="false">Programı incele <span class="training-chevron" aria-hidden="true">⌄</span></button></div></article></div>
+        <div class="training-detail" id="training-individual-details" tabindex="-1" hidden></div>
+        <p class="training-note">Bireysel program süreleri standart eğitim planını ifade eder. Bir eğitim saati 60 dakikadır. İçerik ve uygulama yoğunluğu katılımcının bilgi seviyesine göre uyarlanabilir.</p>
+      </div><div class="training-panel" id="training-corporate" role="tabpanel" aria-labelledby="training-tab-corporate" hidden>
+        <p class="training-audience-copy">ERP kullanıcılarının ve teknik ekiplerin yetkinliklerini geliştirmek için kurumun ihtiyaçlarına göre planlanan eğitimler.</p>
+        <div class="training-grid"><article class="training-card"><div class="training-card-top"><span class="training-index">01</span><span class="training-code">KE-01</span></div><h3>ERP İş Süreçleri ve Modül Kullanımı</h3><p>ERP iş akışlarını ve modüller arası ilişkileri kurumun süreçleri üzerinden ele alan eğitim.</p><div class="training-card-bottom"><div class="training-card-meta"><span>Başlangıç – Orta</span><span>Kuruma özel</span></div><button class="training-open" type="button" data-program="KE-01" aria-controls="training-corporate-details" aria-expanded="false">Programı incele <span class="training-chevron" aria-hidden="true">⌄</span></button></div></article><article class="training-card"><div class="training-card-top"><span class="training-index">02</span><span class="training-code">KE-02</span></div><h3>TROIA Temel Geliştirme</h3><p>TROIA geliştirme ortamı, temel programlama yapıları, SQL ve kod takibine odaklanan eğitim.</p><div class="training-card-bottom"><div class="training-card-meta"><span>Başlangıç – Orta</span><span>Kuruma özel</span></div><button class="training-open" type="button" data-program="KE-02" aria-controls="training-corporate-details" aria-expanded="false">Programı incele <span class="training-chevron" aria-hidden="true">⌄</span></button></div></article><article class="training-card"><div class="training-card-top"><span class="training-index">03</span><span class="training-code">KE-03</span></div><h3>İleri Seviye TROIA ve Uygulamalı Geliştirme</h3><p>Mevcut kod analizi, teknik uyarlama, trace ve uygulama örnekleriyle geliştirme becerilerini ilerletme.</p><div class="training-card-bottom"><div class="training-card-meta"><span>Orta – İleri</span><span>Kuruma özel</span></div><button class="training-open" type="button" data-program="KE-03" aria-controls="training-corporate-details" aria-expanded="false">Programı incele <span class="training-chevron" aria-hidden="true">⌄</span></button></div></article></div>
+        <div class="training-detail" id="training-corporate-details" tabindex="-1" hidden></div>
+        <p class="training-note">Kurumsal programlarda süre ve uygulama kapsamı; katılımcı sayısı, bilgi düzeyi, kullanılan ERP versiyonu ve kurum ihtiyaçlarına göre birlikte planlanır.</p>
+      </div>
+      <div class="training-footer-note"><div><h3>Eğitimler hakkında</h3><p>Programlardan biriyle ilgileniyorsanız veya ihtiyaçlarınıza uygun içerik konusunda görüşmek isterseniz bana yazabilirsiniz. Eğitim kapsamını ve planlamayı birlikte değerlendirebiliriz.</p></div><a href="mailto:cansincini@gmail.com?subject=ERP%20ve%20TROIA%20E%C4%9Fitimleri%20Hakk%C4%B1nda" class="training-general-link">İletişime geç <span aria-hidden="true">↗</span></a></div>
+      <div class="training-templates" hidden>
+      <template id="training-template-BE-01">
+      <div class="training-detail-top"><div><p class="training-detail-code">BE-01 · 16 saat</p><h3>ERP Danışmanlığı ve Proje Süreçleri</h3></div><button class="training-close" type="button" aria-label="Program detayını kapat">Kapat <span aria-hidden="true">×</span></button></div>
+      <div class="training-detail-layout">
+        <div class="training-detail-main"><h4>Eğitimin amacı</h4><p>ERP sistemlerinin işleyişini, temel iş süreçlerini ve danışmanların projelerde üstlendiği sorumlulukları tanıtmak; analiz, uygulama, test ve canlıya geçiş süreçlerinde temel bilgi kazandırmak.</p><h4>Eğitim içeriği</h4><section class="training-module"><div class="training-module-heading"><h5>1. ERP Sistemleri ve ERP’ye Giriş</h5><span>2 saat</span></div><ul class="training-bullets"><li>ERP sistemlerinin temel yapısı ve kullanım alanları</li><li>ERP sistem mimarisine genel bakış</li><li>Temel modüllerin tanıtımı</li><li>ERP kullanıcısı, fonksiyonel danışman, teknik danışman ve proje ekibi rollerinin karşılaştırılması</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>2. ERP İş Süreçleri ve Modüller Arası İlişkiler</h5><span>4 saat</span></div><ul class="training-bullets"><li>Satış ve sipariş yönetimi</li><li>Satınalma ve tedarik süreçleri</li><li>Stok ve depo yönetimi</li><li>Üretim planlama ve üretim süreçleri</li><li>Finans ve muhasebe süreçlerine genel bakış</li><li>Modüller arası veri akışının örnek senaryolarla incelenmesi</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>3. ERP Proje Yönetimi ve Danışmanlık Süreçleri</h5><span>2 saat</span></div><ul class="training-bullets"><li>ERP projelerinin temel aşamaları</li><li>Proje ekibi ve danışmanların görevleri</li><li>Müşteri ve danışman iletişimi</li><li>Proje takibi ve temel dokümantasyon</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>4. İhtiyaç Analizi ve Süreç Dokümantasyonu</h5><span>2 saat</span></div><ul class="training-bullets"><li>Müşteri ihtiyaçlarının belirlenmesi</li><li>Mevcut ve hedef süreçlerin değerlendirilmesi</li><li>Standart sistem ve geliştirme ihtiyacının ayrıştırılması</li><li>Fonksiyonel analiz dokümanı hazırlama</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>5. Test, Veri Aktarımı ve Canlıya Geçiş</h5><span>4 saat</span></div><ul class="training-bullets"><li>Veri aktarımı ve doğrulama süreçleri</li><li>Test senaryoları ve kullanıcı kabul testleri (UAT)</li><li>Canlıya geçiş hazırlıkları</li><li>Canlıya geçiş sonrası destek ve hata takibi</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>6. Örnek ERP Proje Senaryosu</h5><span>2 saat</span></div><ul class="training-bullets"><li>Örnek bir müşteri ihtiyacının değerlendirilmesi</li><li>İş sürecinin analiz edilmesi</li><li>Temel proje dokümantasyonu ve değerlendirme</li></ul></section></div>
+        <aside class="training-detail-side"><h4>Kimler katılabilir?</h4><ul class="training-bullets"><li>ERP danışmanlığına yönelmek isteyenler</li><li>Endüstri mühendisleri ve ilgili bölüm mezunları</li><li>ERP kullanıcıları ve anahtar kullanıcılar</li><li>İş analizi ve ERP proje süreçlerinde görev almak isteyenler</li></ul><h4>Ön koşul / planlama</h4><p>ERP veya yazılım geliştirme deneyimi zorunlu değildir.</p><h4>Hedeflenen kazanım</h4><p>ERP danışmanlığının temel işleyişini kavramak, proje aşamalarını tanımak ve temel süreç analizi yapabilmek.</p><a class="training-email" href="mailto:cansincini@gmail.com?subject=E%C4%9Fitim%20hakk%C4%B1nda%20%7C%20BE-01%20-%20ERP%20Dan%C4%B1%C5%9Fmanl%C4%B1%C4%9F%C4%B1%20ve%20Proje%20S%C3%BCre%C3%A7leri&amp;body=Merhaba%2C%0A%0AERP%20Dan%C4%B1%C5%9Fmanl%C4%B1%C4%9F%C4%B1%20ve%20Proje%20S%C3%BCre%C3%A7leri%20%28BE-01%29%20e%C4%9Fitim%20program%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0A%0A">Bu eğitim hakkında iletişime geç <span aria-hidden="true">↗</span></a></aside>
+      </div>
+    </template>
+<template id="training-template-BE-02">
+      <div class="training-detail-top"><div><p class="training-detail-code">BE-02 · 40 saat</p><h3>TROIA ve SQL ile Teknik Geliştirmeye Giriş</h3></div><button class="training-close" type="button" aria-label="Program detayını kapat">Kapat <span aria-hidden="true">×</span></button></div>
+      <div class="training-detail-layout">
+        <div class="training-detail-main"><h4>Eğitimin amacı</h4><p>ERP sistemlerinin teknik yapısını tanıtmak; SQL ve TROIA temellerini öğretmek; mevcut kodları okuyabilme, akışı takip edebilme ve başlangıç düzeyinde geliştirme yapabilme becerilerini desteklemek.</p><h4>Eğitim içeriği</h4><section class="training-module"><div class="training-module-heading"><h5>1. SQL ve Veritabanı Temelleri</h5><span>10 saat</span></div><ul class="training-bullets"><li>İlişkisel veritabanı mantığı</li><li>Tablo, alan ve veri tipleri</li><li>SELECT, WHERE, ORDER BY ve temel sorgulama</li><li>JOIN yapıları ve tablolar arası ilişkiler</li><li>GROUP BY ve toplama fonksiyonları</li><li>INSERT, UPDATE ve DELETE işlemleri</li><li>Uygulamalı SQL sorguları</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>2. TROIA Programlama Temelleri</h5><span>12 saat</span></div><ul class="training-bullets"><li>ERP teknik mimarisi ve geliştirme ortamı</li><li>TROIA IDE ve geliştirme araçları</li><li>TROIA söz dizimi ve temel komutlar</li><li>Değişkenler ve veri tipleri</li><li>Koşul ifadeleri ve döngüler</li><li>Tablo nesneleri ve veri işlemleri</li><li>TROIA ile temel sorgulama ve veri yönetimi</li><li>Örnek kodların incelenmesi ve uygulamalar</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>3. TROIA Geliştirme Yapıları</h5><span>8 saat</span></div><ul class="training-bullets"><li>Dialog ve ekran yapıları</li><li>Ekran nesneleri ve özellikleri</li><li>Event ve tetikleyici mantığı</li><li>Class ve function yapıları</li><li>Parametre aktarımı ve fonksiyon çağrıları</li><li>Ekran ve kod arasındaki ilişkinin incelenmesi</li><li>Temel ekran ve fonksiyon uygulamaları</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>4. Trace ve Hata Analizi</h5><span>4 saat</span></div><ul class="training-bullets"><li>Trace alma ve inceleme</li><li>Kod çalışma akışını takip etme</li><li>Veritabanı işlemlerinin izlenmesi</li><li>Hata noktalarının tespit edilmesi</li><li>Örnek hata senaryoları</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>5. Uygulamalı TROIA Geliştirme</h5><span>6 saat</span></div><ul class="training-bullets"><li>Mevcut bir fonksiyonun incelenmesi</li><li>Basit bir geliştirme ihtiyacının değerlendirilmesi</li><li>Örnek ekran veya fonksiyon geliştirmesi</li><li>Kod değişikliklerinin test edilmesi</li><li>Uygulama değerlendirmesi</li></ul></section></div>
+        <aside class="training-detail-side"><h4>Kimler katılabilir?</h4><ul class="training-bullets"><li>TROIA öğrenmek isteyen ERP kullanıcıları</li><li>Teknik ERP danışmanlığına yönelmek isteyenler</li><li>ERP geliştirme ekiplerinde çalışmak isteyenler</li><li>Yazılım ve veritabanı bilgisini geliştirmek isteyenler</li></ul><h4>Ön koşul / planlama</h4><p>Temel bilgisayar kullanımı gereklidir. ERP ve SQL deneyimi avantaj sağlar ancak zorunlu değildir. Uygulamalar için uygun ve yetkili bir geliştirme/test ortamı gereklidir.</p><h4>Hedeflenen kazanım</h4><p>SQL sorguları oluşturabilmek, TROIA kodlarının temel yapısını anlayabilmek, mevcut geliştirmeleri inceleyebilmek ve temel düzeyde teknik geliştirme yapabilmek.</p><a class="training-email" href="mailto:cansincini@gmail.com?subject=E%C4%9Fitim%20hakk%C4%B1nda%20%7C%20BE-02%20-%20TROIA%20ve%20SQL%20ile%20Teknik%20Geli%C5%9Ftirmeye%20Giri%C5%9F&amp;body=Merhaba%2C%0A%0ATROIA%20ve%20SQL%20ile%20Teknik%20Geli%C5%9Ftirmeye%20Giri%C5%9F%20%28BE-02%29%20e%C4%9Fitim%20program%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0A%0A">Bu eğitim hakkında iletişime geç <span aria-hidden="true">↗</span></a></aside>
+      </div>
+    </template>
+<template id="training-template-BE-03">
+      <div class="training-detail-top"><div><p class="training-detail-code">BE-03 · 24 saat</p><h3>Uygulamalı ERP Projeleri ve Canlıya Geçiş</h3></div><button class="training-close" type="button" aria-label="Program detayını kapat">Kapat <span aria-hidden="true">×</span></button></div>
+      <div class="training-detail-layout">
+        <div class="training-detail-main"><h4>Eğitimin amacı</h4><p>ERP projelerindeki analiz, dokümantasyon, test, veri kontrolü ve canlıya geçiş çalışmalarını uygulama örnekleri üzerinden ele almak.</p><h4>Eğitim içeriği</h4><section class="training-module"><div class="training-module-heading"><h5>1. Müşteri İhtiyaç Analizi</h5><span>4 saat</span></div><ul class="training-bullets"><li>Örnek müşteri taleplerinin değerlendirilmesi</li><li>İş süreçlerinin analiz edilmesi</li><li>Mevcut sistem ile taleplerin karşılaştırılması</li><li>İhtiyaçların ve çözüm alternatiflerinin belirlenmesi</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>2. Fonksiyonel Analiz ve Proje Dokümantasyonu</h5><span>4 saat</span></div><ul class="training-bullets"><li>Fonksiyonel analiz dokümanı hazırlama</li><li>Geliştirme taleplerinin tanımlanması</li><li>Proje iş listesi oluşturma</li><li>Önceliklendirme ve iş takibi</li><li>Müşteri talepleri ve danışman notlarının yönetimi</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>3. Test Süreçleri ve Hata Yönetimi</h5><span>4 saat</span></div><ul class="training-bullets"><li>Test senaryosu oluşturma</li><li>Kullanıcı kabul testleri (UAT)</li><li>Hata kayıtlarının oluşturulması</li><li>Test sonuçlarının değerlendirilmesi</li><li>Teknik hata analizine giriş</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>4. Veri Aktarımı ve Doğrulama</h5><span>4 saat</span></div><ul class="training-bullets"><li>Temel veri aktarımı mantığı</li><li>Veri eşleştirme ve kontrol işlemleri</li><li>Aktarılan verilerin doğrulanması</li><li>Veri tutarsızlıklarının incelenmesi</li><li>Örnek aktarım ve kontrol senaryoları</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>5. Canlıya Geçiş ve Destek Süreçleri</h5><span>4 saat</span></div><ul class="training-bullets"><li>Canlıya geçiş planı hazırlama</li><li>Geçiş öncesi kontrol listeleri</li><li>Risklerin ve kritik süreçlerin belirlenmesi</li><li>Canlıya geçiş günü yapılacak kontroller</li><li>Geçiş sonrası hata ve destek yönetimi</li></ul></section><section class="training-module"><div class="training-module-heading"><h5>6. Uçtan Uca Örnek Proje Çalışması</h5><span>4 saat</span></div><ul class="training-bullets"><li>Örnek ERP proje senaryosunun değerlendirilmesi</li><li>İhtiyaç analizi ve iş listesi hazırlanması</li><li>Test ve canlıya geçiş planının oluşturulması</li><li>Hazırlanan çalışmaların değerlendirilmesi</li></ul></section></div>
+        <aside class="training-detail-side"><h4>Kimler katılabilir?</h4><ul class="training-bullets"><li>ERP proje ekiplerinde görev almak isteyenler</li><li>Fonksiyonel danışmanlığa yönelmek isteyenler</li><li>ERP proje uzmanları ve danışman adayları</li><li>Canlıya geçiş süreçlerini uygulamalı tanımak isteyenler</li></ul><h4>Ön koşul / planlama</h4><p>Temel ERP süreçleri hakkında bilgi sahibi olunması önerilir. TROIA bilgisi zorunlu değildir.</p><h4>Hedeflenen kazanım</h4><p>ERP projelerindeki temel analiz, test, dokümantasyon ve canlıya geçiş çalışmalarını örnek senaryolar üzerinden uygulayabilmek.</p><a class="training-email" href="mailto:cansincini@gmail.com?subject=E%C4%9Fitim%20hakk%C4%B1nda%20%7C%20BE-03%20-%20Uygulamal%C4%B1%20ERP%20Projeleri%20ve%20Canl%C4%B1ya%20Ge%C3%A7i%C5%9F&amp;body=Merhaba%2C%0A%0AUygulamal%C4%B1%20ERP%20Projeleri%20ve%20Canl%C4%B1ya%20Ge%C3%A7i%C5%9F%20%28BE-03%29%20e%C4%9Fitim%20program%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0A%0A">Bu eğitim hakkında iletişime geç <span aria-hidden="true">↗</span></a></aside>
+      </div>
+    </template>
+<template id="training-template-KE-01">
+      <div class="training-detail-top"><div><p class="training-detail-code">KE-01 · Kuruma özel</p><h3>ERP İş Süreçleri ve Modül Kullanımı</h3></div><button class="training-close" type="button" aria-label="Program detayını kapat">Kapat <span aria-hidden="true">×</span></button></div>
+      <div class="training-detail-layout">
+        <div class="training-detail-main"><h4>Eğitimin amacı</h4><p>Çalışanların ERP iş süreçlerini ve modüller arasındaki ilişkileri daha iyi anlamalarını, sistemi iş akışlarına uygun ve etkin biçimde kullanmalarını desteklemek.</p><h4>Eğitim içeriği</h4><ul class="training-bullets"><li>ERP sistemlerinin genel yapısı</li><li>ERP arayüzü ve temel kullanım</li><li>Satış ve sipariş yönetimi</li><li>Satınalma ve tedarik süreçleri</li><li>Stok ve depo yönetimi</li><li>Üretim planlama ve üretim yönetimi</li><li>Finans süreçleri ve modüller arası ilişkiler</li><li>Temel veri yapısı ve işlem akışları</li><li>İş süreçleri üzerinden uygulamalı örnekler</li><li>Sık karşılaşılan kullanım sorunları ve kontrol yöntemleri</li></ul></div>
+        <aside class="training-detail-side"><h4>Kimler katılabilir?</h4><ul class="training-bullets"><li>ERP kullanıcıları</li><li>Anahtar kullanıcılar</li><li>Departman sorumluları</li><li>ERP proje ekipleri</li></ul><h4>Ön koşul / planlama</h4><p>Eğitim kapsamı, kurumun kullandığı modüllere ve katılımcıların bilgi düzeyine göre planlanır.</p><h4>Hedeflenen kazanım</h4><p>İş akışlarının ERP üzerindeki karşılığını ve modüller arası etkileşimi daha bütüncül değerlendirebilmek.</p><a class="training-email" href="mailto:cansincini@gmail.com?subject=E%C4%9Fitim%20hakk%C4%B1nda%20%7C%20KE-01%20-%20ERP%20%C4%B0%C5%9F%20S%C3%BCre%C3%A7leri%20ve%20Mod%C3%BCl%20Kullan%C4%B1m%C4%B1&amp;body=Merhaba%2C%0A%0AERP%20%C4%B0%C5%9F%20S%C3%BCre%C3%A7leri%20ve%20Mod%C3%BCl%20Kullan%C4%B1m%C4%B1%20%28KE-01%29%20e%C4%9Fitim%20program%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0A%0A">Bu eğitim hakkında iletişime geç <span aria-hidden="true">↗</span></a></aside>
+      </div>
+    </template>
+<template id="training-template-KE-02">
+      <div class="training-detail-top"><div><p class="training-detail-code">KE-02 · Kuruma özel</p><h3>TROIA Temel Geliştirme</h3></div><button class="training-close" type="button" aria-label="Program detayını kapat">Kapat <span aria-hidden="true">×</span></button></div>
+      <div class="training-detail-layout">
+        <div class="training-detail-main"><h4>Eğitimin amacı</h4><p>Teknik ekiplerin TROIA geliştirme ortamını ve temel kod yapılarını tanımasını, mevcut geliştirmeleri anlayabilmesini ve başlangıç düzeyinde teknik çalışmalar yapabilmesini desteklemek.</p><h4>Eğitim içeriği</h4><ul class="training-bullets"><li>ERP teknik mimarisi</li><li>TROIA IDE ve geliştirme ortamı</li><li>SQL ve veritabanı temelleri</li><li>TROIA söz dizimi ve temel komutlar</li><li>Değişkenler, koşullar ve döngüler</li><li>Tablo nesneleri ve veri işlemleri</li><li>Dialog ve ekran geliştirme mantığı</li><li>Event, class ve function yapıları</li><li>Trace ve hata inceleme yöntemleri</li><li>Uygulamalı temel geliştirme örnekleri</li></ul></div>
+        <aside class="training-detail-side"><h4>Kimler katılabilir?</h4><ul class="training-bullets"><li>ERP teknik ekipleri</li><li>Yazılım geliştiriciler</li><li>Teknik danışman adayları</li><li>ERP üzerinde geliştirme yapmak isteyen çalışanlar</li></ul><h4>Ön koşul / planlama</h4><p>Uygulama içeriği, ekibin teknik seviyesine ve kullanılabilir yetkili geliştirme/test ortamına göre planlanır.</p><h4>Hedeflenen kazanım</h4><p>TROIA kod yapısını tanımak, temel kod akışlarını izlemek ve örnek geliştirmeleri değerlendirebilmek.</p><a class="training-email" href="mailto:cansincini@gmail.com?subject=E%C4%9Fitim%20hakk%C4%B1nda%20%7C%20KE-02%20-%20TROIA%20Temel%20Geli%C5%9Ftirme&amp;body=Merhaba%2C%0A%0ATROIA%20Temel%20Geli%C5%9Ftirme%20%28KE-02%29%20e%C4%9Fitim%20program%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0A%0A">Bu eğitim hakkında iletişime geç <span aria-hidden="true">↗</span></a></aside>
+      </div>
+    </template>
+<template id="training-template-KE-03">
+      <div class="training-detail-top"><div><p class="training-detail-code">KE-03 · Kuruma özel</p><h3>İleri Seviye TROIA ve Uygulamalı Geliştirme</h3></div><button class="training-close" type="button" aria-label="Program detayını kapat">Kapat <span aria-hidden="true">×</span></button></div>
+      <div class="training-detail-layout">
+        <div class="training-detail-main"><h4>Eğitimin amacı</h4><p>TROIA deneyimi bulunan ekiplerin mevcut uygulamaları analiz etme, geliştirme ihtiyaçlarını değerlendirme, hata inceleme ve teknik uyarlama yetkinliklerini geliştirmek.</p><h4>Eğitim içeriği</h4><ul class="training-bullets"><li>TROIA geliştirme yapılarının ileri düzeyde kullanımı</li><li>Class ve function yapıları üzerinden uygulamalar</li><li>Ekran ve fonksiyon ilişkilerinin incelenmesi</li><li>Veritabanı işlemleri ve veri akışlarının analizi</li><li>Mevcut kodların incelenmesi ve düzenlenmesi</li><li>Trace üzerinden detaylı hata analizi</li><li>Geliştirme ve uyarlama senaryoları</li><li>ERP versiyon geçişlerinde teknik uyumluluk yaklaşımı</li><li>Kod düzenleme, test ve doğrulama çalışmaları</li><li>Kurum ihtiyaçlarına yönelik örnek teknik geliştirmeler</li></ul></div>
+        <aside class="training-detail-side"><h4>Kimler katılabilir?</h4><ul class="training-bullets"><li>TROIA bilgisi bulunan geliştiriciler</li><li>Teknik ERP danışmanları</li><li>Kurum içi geliştirme ekipleri</li></ul><h4>Ön koşul / planlama</h4><p>TROIA dilinde temel geliştirme bilgisi ve mevcut kodları okuyabilme deneyimi önerilir.</p><h4>Hedeflenen kazanım</h4><p>Mevcut kod ve uyarlamaları daha sistematik inceleyebilmek, hata takibi ve doğrulama yaklaşımını geliştirmek.</p><a class="training-email" href="mailto:cansincini@gmail.com?subject=E%C4%9Fitim%20hakk%C4%B1nda%20%7C%20KE-03%20-%20%C4%B0leri%20Seviye%20TROIA%20ve%20Uygulamal%C4%B1%20Geli%C5%9Ftirme&amp;body=Merhaba%2C%0A%0A%C4%B0leri%20Seviye%20TROIA%20ve%20Uygulamal%C4%B1%20Geli%C5%9Ftirme%20%28KE-03%29%20e%C4%9Fitim%20program%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0A%0A">Bu eğitim hakkında iletişime geç <span aria-hidden="true">↗</span></a></aside>
+      </div>
+    </template>
+      </div>
+    </section>
+    <!-- ERP ve TROIA eğitimleri sonu -->
 
     <section class="section content-section" id="icerikler">
       <div class="section-title wide">
@@ -391,5 +475,71 @@
     <span>© 2026 Cansın Çini</span>
     <span>Canias ERP • İş Süreçleri • Dijital Dönüşüm</span>
   </footer>
+
+<script>
+(function () {
+  'use strict';
+  const tabs = Array.from(document.querySelectorAll('.training-tab'));
+  const panels = [document.getElementById('training-individual'), document.getElementById('training-corporate')];
+
+  function resetDetails(panel) {
+    const detail = panel.querySelector('.training-detail');
+    detail.replaceChildren();
+    detail.hidden = true;
+    panel.querySelectorAll('.training-open').forEach(button => {
+      button.setAttribute('aria-expanded', 'false');
+      button.innerHTML = 'Programı incele <span class="training-chevron" aria-hidden="true">⌄</span>';
+    });
+  }
+
+  function setTab(index) {
+    tabs.forEach((tab, i) => {
+      const selected = i === index;
+      tab.setAttribute('aria-selected', String(selected));
+      tab.tabIndex = selected ? 0 : -1;
+      panels[i].hidden = !selected;
+      if (!selected) resetDetails(panels[i]);
+    });
+  }
+
+  tabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => setTab(index));
+    tab.addEventListener('keydown', event => {
+      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+      event.preventDefault();
+      const next = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : (index + (event.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length;
+      setTab(next);
+      tabs[next].focus();
+    });
+  });
+
+  document.querySelectorAll('.training-open').forEach(button => {
+    button.addEventListener('click', () => {
+      const panel = button.closest('.training-panel');
+      const detail = panel.querySelector('.training-detail');
+      const isOpen = button.getAttribute('aria-expanded') === 'true';
+      resetDetails(panel);
+      if (isOpen) return;
+      const template = document.getElementById('training-template-' + button.dataset.program);
+      if (!template) return;
+      detail.appendChild(template.content.cloneNode(true));
+      detail.hidden = false;
+      button.setAttribute('aria-expanded', 'true');
+      button.innerHTML = 'Detayı kapat <span class="training-chevron" aria-hidden="true">⌃</span>';
+      detail.querySelector('.training-close').addEventListener('click', () => {
+        resetDetails(panel);
+        button.focus();
+      });
+      if (window.matchMedia('(max-width: 650px)').matches) {
+        requestAnimationFrame(() => detail.scrollIntoView({behavior:'smooth', block:'start'}));
+      }
+    });
+  });
+})();
+  document.querySelectorAll('.mobile-navigation-links a').forEach(a => a.addEventListener('click', () => {
+    const mobileMenu = document.querySelector('.mobile-navigation');
+    if (mobileMenu) mobileMenu.open = false;
+  }));
+</script>
 </body>
 </html>
